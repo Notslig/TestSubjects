@@ -1,4 +1,6 @@
-public class exceptionHandler {
+package lib ;
+
+public class Exception {
 
     public void MismatchArraySizeException(){
         System.out.println(" Caution : The array size input does not match with each other ! ") ;
