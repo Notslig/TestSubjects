@@ -1,0 +1,230 @@
+/* Main.php */
+
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eaeaea;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  padding: 5px;
+}
+
+.window {
+  max-width: auto;
+  margin: auto;
+  background: #fff;
+  border: 3px solid #000;
+}
+
+.window-bar {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    border-bottom: 3px solid #000;
+    font-size: 15px;
+    display: flex;
+}
+
+.user{
+  display: flex;      
+  margin-left: auto;
+}
+
+.home {
+  padding:10px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px dashed #2b2929;
+}
+
+.home a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+    
+.home a:hover {
+  text-decoration: underline;
+}
+
+.welcome {
+    text-align: center;
+    padding: 50px;
+    border-bottom: 3px solid #000;
+}
+
+.welcome h1 {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 30px;
+    font-size: 29px;
+}
+
+.enter {
+    font-family: 'Press Start 2P', cursive;
+    padding: 12px 20px;
+    border: 3px solid #000;
+    cursor: pointer;
+   
+}
+
+.enter:hover {
+  background: #000;
+  color: #fff;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.about{
+    padding: 40px;
+    text-align: center;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.game{
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+    width: 100%;
+    border: 3px ridge #ffffffb0;
+    cursor: pointer;
+}
+
+.game:hover{
+  background: #000;
+  color: #fff;
+}
+
+
+
+.design{
+  border: 3px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.design h3{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  padding: 30px;
+  
+}
+
+.get{
+  text-align: center;
+  padding: 30px;
+  border-top: 2px dashed #000;
+  cursor: pointer;
+}
+
+.rights{
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+  border-top: 3px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* GameBoy.php */
+.title {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 30px 10px;
+  font-size: 22px;
+  border-bottom: 2px dashed #000;
+
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: 300px auto;
+  padding: 30px;
+}
+
+
+.left img {
+  width: 60%;
+}
+
+
+.panel {
+  border: 3px solid #000;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.panel h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.panel ul {
+  padding-left: 10px;
+}
+
+
+.description {
+  border-top: 2px dashed #000;
+  padding: 25px 30px;
+}
+
+.description h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 3px solid #000;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

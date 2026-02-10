@@ -1,128 +1,37 @@
-/*Form Feedback Section*/
-body{
-    background-color: black ;
-}
-.form{
-    display: flex ;
-    justify-content: center ;
-    align-items: center ;
-    background-color: url("images/utility/form.jpg") ;
-    background-size: cover ;
-    background-position: center ;;
+body {
+    font-family: Arial;
+    background-color:lavender;
 }
 
-.input{
-    width: 800px ;
-    height: 720px ;
-    background-color: transparent ;
-    -webkit-backdrop-filter: blur(5px) ; /*backdrop-filter*/
-    backdrop-filter: blur(5px) ;
-    border: 2px solid greenyellow ;
-    border-radius: 20px ;
-    padding: 30px 20px 20px 20px ;
+.container {
+    width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+    text-align: center;
 }
 
-.login-box{
-    width: 800px ;
-    background-color: rgba(2, 2, 2, 0.7) ;
-    color: white ;
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
 }
 
-.input legend{
-    font-size: 36px ;
-    text-align: center ;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    color: greenyellow ;
+button {
+    background:blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
-.input-box{
-    display: flex ;
-    justify-content: space-around ;
-    width: 83% ;
-    height: 50px ;
-    background: rgb(70, 67, 67) ;
-    margin-top: 30px ;
-    padding-bottom: 20px ;
-}
-
-.input-box-textarea{
-    display: flex ;
-    justify-content: space-around ;
-    width: 83% ;
-    height: 120px ;
-    background: rgb(70, 67, 67) ;
-    margin-top: 30px ;
-    padding-bottom: 23px ;
-}
-
-.input-box input{
-    width: 100% ;
-    height: 100% ;
-    background: transparent ;
-    border: 1px solid greenyellow ;
-    outline: none ;
-    border-radius: 10px ;
-    padding: 10px 10px 10px 10px ;
-    
-}
-.input-box input:focus,
-.input-box-textarea textarea:focus{
-    color: greenyellow ;
-}
-.input-box-textarea textarea{
-    width: 100% ;
-    height: 120px ;
-    background: transparent ;
-    border: 1px solid greenyellow ;
-    outline: none ;
-    border-radius: 10px ;
-    padding: 10px 10px 10px 10px ;
-}
-
-.input-box-textarea textarea::placeholder{
-    color: greenyellow ;
-    font-size: large ;
-    opacity: 1 ;
-}
-
-.input-box input::placeholder{
-    color: greenyellow ;
-    font-size: medium  ;
-    opacity: 1 ;
-}
-
-.form-btn{
-    width: 160px ;
-    height: 60px ;
-    border: 2px solid greenyellow ;
-    outline: none ;
-    border-radius: 20px ;
-    cursor: pointer ;
-    background: transparent ;
-    color: greenyellow ;
-    font-size: 30px ;
-    margin-top: 60px ;
-    transition: transparent 0.3s ease, transform 0.1s ;
-}
-.form-btn::before{
-    content: ' ';
-    background: transparent ;
-    color: greenyellow ;
-
-}
-.form-btn::after{
-    content: ' ';
-    background: greenyellow ;
-}
-.form-btn:hover{
-    background: greenyellow ;
-    color: black ;
-    text-decoration: none ;
-}
-
-.fieldtext{
-    text-align: center ;
-    font-size: 30px ;
-    color: white ;
-    padding-bottom: 30px ;
+.card {
+    background-color:pink;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 4px solid pink;
+    text-align: left;
 }
